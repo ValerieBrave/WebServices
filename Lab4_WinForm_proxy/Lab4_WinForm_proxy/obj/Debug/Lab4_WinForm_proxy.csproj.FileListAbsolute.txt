@@ -1,0 +1,9 @@
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\bin\Debug\Lab4_WinForm_proxy.exe.config
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\bin\Debug\Lab4_WinForm_proxy.exe
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\bin\Debug\Lab4_WinForm_proxy.pdb
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.csprojAssemblyReference.cache
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.Properties.Resources.resources
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.csproj.GenerateResource.cache
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.exe
+D:\WebServices\Lab4_WinForm_proxy\Lab4_WinForm_proxy\obj\Debug\Lab4_WinForm_proxy.pdb

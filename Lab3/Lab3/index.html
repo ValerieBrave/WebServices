@@ -1,0 +1,98 @@
+﻿﻿
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+    <link href="styles.css" type="text/css" rel="stylesheet" />
+    <script type="text/javascript" src="/Scripts/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="script.js"></script>
+</head>
+<body>
+    <div class="container">
+        <input id="offsetInput" type="number" placeholder="offset" />
+        <input id="limitInput" type="number" placeholder="limit" />
+        <button id="fetch">Fetch</button>
+    </div>
+    <br />
+    <div class="container">
+        <input id="minIdInput" type="number" placeholder="min id" />
+        <input id="maxIdInput" type="number" placeholder="max id" />
+        <button id="limit">Limit</button>
+    </div>
+    <br />
+    <div class="container">
+        <select id="sortOptions">
+            <option>Id</option>
+            <option>Name</option>
+        </select>
+        <select id="orderOptions">
+            <option>Asc</option>
+            <option>Desc</option>
+        </select>
+        <button id="sort">Sort</button>
+    </div>
+    <br />
+    <div class="container">
+        <select id="formatOptions">
+            <option>XML</option>
+            <option>JSON</option>
+        </select>
+        <button id="format">Format</button>
+    </div>
+    <br />
+    <div class="container">
+        <input id="likeInput" type="text" />
+        <button id="like">Like</button>
+    </div>
+    <br />
+    <div class="container">
+        <input id="globalLikeInput" type="text" />
+        <button id="globalLike">Global like</button>
+    </div>
+    <br />
+    <div class="container">
+        <input type="checkbox" id="studentIdCheck" name="columns" value="studentId">
+        <label for="studentIdCheck">StudentId</label>
+        <input type="checkbox" id="nameCheck" name="columns" value="name">
+        <label for="nameCheck">Name</label>
+        <input type="checkbox" id="phoneCheck" name="columns" value="phone">
+        <label for="phoneCheck">Phone</label>
+        <button id="columns">Get</button>
+    </div>
+    <br />
+    <div class="container">
+        <div id="tableBlock"></div>
+        <div id="editBlock">
+            <b>Edit record</b>
+            <table>
+                <tr><td><input type="hidden" id="editId" /></td><td></td></tr>
+                <tr><td><label>Name: </label></td><td><input type="text" id="editName" /></td></tr>
+                <tr><td><label>Phone: </label></td><td><input type="text" id="editPhone" /></td></tr>
+            </table>
+            <button id="editRecord">Save</button>
+        </div>
+        <div id="createBlock">
+            <b>Add record</b>
+            <table>
+                <tr><td><label>Name: </label></td><td><input type="text" id="addName" /></td></tr>
+                <tr><td><label>Phone: </label></td><td><input type="text" id="addPhone" /></td></tr>
+            </table>
+            <button id="addRecord">Save</button>
+        </div>
+    </div>
+
+    <div>
+        <h2>Демонстрация ошибочек</h2>
+        <div>
+            <input type="number" id="badId"/>
+            <button onclick="TestDeleteError()">Insert bad id</button>
+        </div>
+        <h2>Ошибочка:</h2>
+        <div id="show_error_resp">
+
+        </div>
+    </div>
+</body>
+</html>

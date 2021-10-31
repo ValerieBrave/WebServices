@@ -1,0 +1,10 @@
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\bin\Debug\Lab4_WinForm_client.exe.config
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\bin\Debug\Lab4_WinForm_client.exe
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\bin\Debug\Lab4_WinForm_client.pdb
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.csprojAssemblyReference.cache
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.Form1.resources
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.Properties.Resources.resources
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.csproj.GenerateResource.cache
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.exe
+D:\WebServices\Lab4_WinForm_client\Lab4_WinForm_client\obj\Debug\Lab4_WinForm_client.pdb
