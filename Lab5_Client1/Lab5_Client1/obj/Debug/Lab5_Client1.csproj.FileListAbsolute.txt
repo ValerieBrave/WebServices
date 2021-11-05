@@ -1,0 +1,7 @@
+D:\WebServices\Lab5_Client1\Lab5_Client1\bin\Debug\Lab5_Client1.exe.config
+D:\WebServices\Lab5_Client1\Lab5_Client1\bin\Debug\Lab5_Client1.exe
+D:\WebServices\Lab5_Client1\Lab5_Client1\bin\Debug\Lab5_Client1.pdb
+D:\WebServices\Lab5_Client1\Lab5_Client1\obj\Debug\Lab5_Client1.csprojAssemblyReference.cache
+D:\WebServices\Lab5_Client1\Lab5_Client1\obj\Debug\Lab5_Client1.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab5_Client1\Lab5_Client1\obj\Debug\Lab5_Client1.exe
+D:\WebServices\Lab5_Client1\Lab5_Client1\obj\Debug\Lab5_Client1.pdb

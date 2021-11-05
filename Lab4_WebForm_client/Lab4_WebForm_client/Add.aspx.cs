@@ -20,6 +20,7 @@ namespace Lab4_WebForm_client
             if (int.TryParse(first.Text.ToString(), out x) && int.TryParse(second.Text.ToString(), out y))
             {
                 result.Text = client.Add(x, y).ToString();
+                
             }
             else
             {

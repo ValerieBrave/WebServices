@@ -1,0 +1,7 @@
+D:\WebServices\Lab5\Lab5\bin\Debug\Lab5.dll.config
+D:\WebServices\Lab5\Lab5\bin\Debug\Lab5.dll
+D:\WebServices\Lab5\Lab5\bin\Debug\Lab5.pdb
+D:\WebServices\Lab5\Lab5\obj\Debug\Lab5.csprojAssemblyReference.cache
+D:\WebServices\Lab5\Lab5\obj\Debug\Lab5.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab5\Lab5\obj\Debug\Lab5.dll
+D:\WebServices\Lab5\Lab5\obj\Debug\Lab5.pdb
