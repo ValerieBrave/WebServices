@@ -59,12 +59,12 @@ namespace Lab6_MVC
             return context.Student;
         }
 
-        [WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json)]
-        //[WebGet(ResponseFormat = WebMessageFormat.Json)]
-        public IQueryable<Student> InsertStudent(String Name)
+        //[WebInvoke(Method = "POST", RequestFormat = WebMessageFormat.Json)]
+        [WebGet]
+        public IQueryable<Student> InsertStudent(String name)
         {
             Student student = new Student();
-            student.Name = Name;
+            student.Name = name;
             WS_SVVEntities1 context = this.CurrentDataSource;
             context.Student.Add(student);
             context.SaveChanges();
