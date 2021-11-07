@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "gkKIcagXN4//cmRZC4HESxfK+qm+cWMM08FYQoJv1indIBMUNf9pafx0GCj3XsoryLnoEwIJiJRq7WbPzoW8xQ==",
+  "success": true,
+  "projectFilePath": "D:\\WebServices\\Lab7_WinForm_client\\Lab7_WinForm_client\\Lab7_WinForm_client.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Валерия Смелова\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\3.1.13\\microsoft.netcore.app.host.win-x64.3.1.13.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,10 @@
+D:\WebServices\Lab7_service\Lab7_service\bin\Debug\Lab7_service.dll.config
+D:\WebServices\Lab7_service\Lab7_service\bin\Debug\Lab7_service.dll
+D:\WebServices\Lab7_service\Lab7_service\bin\Debug\Lab7_service.pdb
+D:\WebServices\Lab7_service\Lab7_service\bin\Debug\Newtonsoft.Json.dll
+D:\WebServices\Lab7_service\Lab7_service\bin\Debug\Newtonsoft.Json.xml
+D:\WebServices\Lab7_service\Lab7_service\obj\Debug\Lab7_service.csprojAssemblyReference.cache
+D:\WebServices\Lab7_service\Lab7_service\obj\Debug\Lab7_service.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab7_service\Lab7_service\obj\Debug\Lab7_service.csproj.CopyComplete
+D:\WebServices\Lab7_service\Lab7_service\obj\Debug\Lab7_service.dll
+D:\WebServices\Lab7_service\Lab7_service\obj\Debug\Lab7_service.pdb

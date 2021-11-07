@@ -1,0 +1,13 @@
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_host.exe.config
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_host.exe
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_host.pdb
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_service.dll
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Newtonsoft.Json.dll
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_service.pdb
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Lab7_service.dll.config
+D:\WebServices\Lab7_service\Lab7_host\bin\Debug\Newtonsoft.Json.xml
+D:\WebServices\Lab7_service\Lab7_host\obj\Debug\Lab7_host.csprojAssemblyReference.cache
+D:\WebServices\Lab7_service\Lab7_host\obj\Debug\Lab7_host.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab7_service\Lab7_host\obj\Debug\Lab7_host.csproj.CopyComplete
+D:\WebServices\Lab7_service\Lab7_host\obj\Debug\Lab7_host.exe
+D:\WebServices\Lab7_service\Lab7_host\obj\Debug\Lab7_host.pdb

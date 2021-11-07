@@ -1,0 +1,15 @@
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.exe
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.deps.json
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.runtimeconfig.json
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.runtimeconfig.dev.json
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.dll
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\bin\Debug\netcoreapp3.1\Lab7_WinForm_client.pdb
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.csprojAssemblyReference.cache
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.Form1.resources
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.csproj.GenerateResource.cache
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.AssemblyInfoInputs.cache
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.AssemblyInfo.cs
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.csproj.CoreCompileInputs.cache
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.dll
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.pdb
+D:\WebServices\Lab7_WinForm_client\Lab7_WinForm_client\obj\Debug\netcoreapp3.1\Lab7_WinForm_client.genruntimeconfig.cache
