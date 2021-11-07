@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30907.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lab8_JsonRpc", "Lab8_JsonRpc\Lab8_JsonRpc.csproj", "{68EAE409-983F-4646-894C-7C118BAD7E50}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{68EAE409-983F-4646-894C-7C118BAD7E50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68EAE409-983F-4646-894C-7C118BAD7E50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68EAE409-983F-4646-894C-7C118BAD7E50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68EAE409-983F-4646-894C-7C118BAD7E50}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F9D9000-410A-4723-827F-22B0D46353CD}
+	EndGlobalSection
+EndGlobal
