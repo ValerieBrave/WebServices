@@ -40,8 +40,9 @@
                     }
                 },
                 success: function (response, status, xhr) {
-                    console.log("success")
-                    document.getElementById('result').innerHTML = `Id = ${response.Id}\n JsonRpc = ${response.JsonRpc}\n Method = ${response.Method}\n Result = ${response.Result}`
+                    document.getElementById('result').innerHTML = `Id = ${response.Id}\n JsonRpc = ${response.JsonRPC}\n Method = ${response.Method}\n Result = ${response.Result}`
+                    document.getElementById('result').innerHTML += '<br>'
+                    document.getElementById('result').innerHTML += `Id = ${response.Id}\n JsonRpc = ${response.JsonRPC}\n Error: Code = ${response.Error?.Code}, Message = ${response.Error?.Message}`
                 }
             })
         }

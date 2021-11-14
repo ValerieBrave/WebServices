@@ -15,17 +15,36 @@ namespace Lab8_JsonRpc.Controllers
     {
         private static bool ignoreMethods = false;
 
+        [System.Web.Http.HttpPut]
+
+        public object[] Multi([FromBody] ReqJsonRPC[] body)
+        {
+            int length = body.Length;
+            object[] result = new object[length];
+
+            for (int i = 0; i < length; i++)
+                result[i] = Single(body[i]);
+
+            //result.JsonRequestBehavior = JsonRequestBehavior.AllowGet;
+            return result;
+        }
+
+
         [System.Web.Http.HttpPost]
         public object Single(ReqJsonRPC body)
         {
             if (ignoreMethods)
-            return Json(GetError(body.Id, body.JsonRPC, new ErrorJsonRPC { Message = "Methods are not available", Code = -32601 }));
+            return GetError(body.Id, body.JsonRPC, new ErrorJsonRPC { Message = "Methods are not available", Code = -32601 });
+
+            //int length = body.Length;
+
 
             string method = body.Method;
             DataModel param = body.Params;
             string key = param.Key;
             int value = int.Parse(param.Value == null || param.Value == "" ? "0" : param.Value); // default value = 0
             int? result = null;
+            //var ret = new JsonResult();
 
             switch (method)
             {
@@ -56,6 +75,8 @@ namespace Lab8_JsonRpc.Controllers
                     }
                 case "DivM":
                     {
+                        if(value ==0)
+                        return GetError(body.Id, body.JsonRPC, new ErrorJsonRPC { Message = string.Format("Attempt to divide by zero", body.Method), Code = -32602 });
                         result = DivM(key, value);
                         break;
                     }
@@ -66,27 +87,33 @@ namespace Lab8_JsonRpc.Controllers
                     }
                 default:
                     {
-                        return Json(GetError(body.Id, body.JsonRPC, new ErrorJsonRPC { Message = string.Format("Function {0} is not found", body.Method), Code = -32601 }));
+                        return GetError(body.Id, body.JsonRPC, new ErrorJsonRPC { Message = string.Format("Function {0} is not found", body.Method), Code = -32601 });
                     }
             }
-            return Json(new ResJsonRPC()
+           return 
+            new ResJsonRPC()
             {
                 Id = body.Id,
                 JsonRPC = body.JsonRPC,
                 Method = body.Method,
                 Result = result
-            }
-            );
+            };
+           
+            
         }
+        
+        
         ////////////////////////////////////
-        private ResJsonRPCError GetError(string id, string jsonRPC, ErrorJsonRPC error)
+        private object GetError(string id, string jsonRPC, ErrorJsonRPC error)
         {
+            
             return new ResJsonRPCError()
             {
                 Id = id,
                 JsonRPC = jsonRPC,
                 Error = error
             };
+            
         }
         ////////////////////////////////////
         private int? SetM(string k, int x)
@@ -128,6 +155,7 @@ namespace Lab8_JsonRpc.Controllers
         private int? DivM(string k, int x)
         {
             int? value = GetM(k);
+
             HttpContext.Current.Session[k] = value == null ? x : value / x;
             return GetM(k);
         }
